@@ -11,36 +11,33 @@
 
 다운받은 파일압축을 풀면 다음과 같이 되어있습니다. 이곳에서 Algo.exe 를 실행하면 됩니다.
 
-
-
+<img src='./images/1.png>
+<br>
+	  
 만약 편의 혹은 PC 성능의 문제로 전체화면이 아니라 작은 화면으로 띄우기를 원하시는 경우 run.bat 를 실행하시기 바랍니다. run.bat 파일에서 화면의 가로 세로 사이즈를 지정할 수 있으며, 첨부된 파일 에서는 -ResX=640 -ResY=480 로 지정되어있습니다.
 
 처음 Algo.exe 파일을 실행하는 경우 UE4 설치를 요구합니다. UE4 Prerequisite 설치 완료 후에, 시뮬레이터가 실행됩니다.
 
-
-
-
+<img src='./images/2.png>
+<br>
 
 그리고 실행시 다음과 같은 다이얼로그에서 Yes를 선택하여 주시기바랍니다. (No 를 하는 경우 자동차 대신 드론이 나타납니다)
 
-
-
-
-
+<img src='./images/3.png>
+<br>
+	  
 시뮬레이터가 실행된 화면입니다.
 
-
-
-
+<img src='./images/4.png>
+<br>
 
 시뮬레이터 도움말
 
 - F1 키를 누르면 도움말이 나옵니다.
 
-
-
-
-
+<img src='/images/5.png>
+<br>
+	  
 settings.json 수정하기
 
 - 아래와 같이 수정바랍니다.
@@ -49,13 +46,14 @@ Path : C:\Users\SDS\Documents\AirSim
 
 File : settings.json
 
+```
 
     {
 	 "SettingsVersion": 1.2,
 	 "SimMode" : "Car",
 	 "ClockSpeed": 1
     }
-	
+```	
 
 
 위 내용은 가장 기본 형태의 세팅입니다.
@@ -74,7 +72,7 @@ Path : C:\Users\{사용자}\Documents\AirSim 이하에 생성되는 settings.jso
 
 
 
-02. 아나콘다 설치하기
+### 02. 아나콘다 설치하기
 
 A. 아래의 URL로 접속하여, 3.7 버전 설치 파일을 다운로드 받습니다.
 
