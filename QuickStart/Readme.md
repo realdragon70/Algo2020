@@ -78,7 +78,7 @@ A. 아래의 URL로 접속하여, 3.7 버전 설치 파일을 다운로드 받�
 
 접속하면 macOS가 기본으로 선택되어 있으므로, Windows 메뉴를 선택해 주세요.
 
-<img src='/Images/6.png'>
+<img src='./Images/6.png'>
 <br>
 
 https://www.anaconda.com/distribution/#download-section
@@ -90,12 +90,12 @@ Installation Type은 어느 것을 선택해도 상관없습니다. 여기서는
 
 ALL Users 를 선택 하여도 무방합니다. 다만, 패키지를 설치 또는 삭제시 cmd 창을에서 관리자 권한을 요구하는 경우가 있습니다.
 
-<img src='/Images/7.png'>
+<img src='./Images/7.png'>
 <br>
 
 C. 고급 설치 옵션 선택하기.
 
-<img src='/Images/8.png'>
+<img src='./Images/8.png'>
 
 a) Adding Anaconda to my PATH environment variable (default 는 체크해제)
 <br>
@@ -105,7 +105,7 @@ a) Adding Anaconda to my PATH environment variable (default 는 체크해제)
 
 이 모든것을 신경쓰고 싶지 않다면, 체크 해제한 상태로 설치하고 cmd 창 대신에 Anaconda Prompt 를 사용하시면 됩니다.
 
-<img src='/Images/9.png'>
+<img src='./Images/9.png'>
 
 b) Register Anaconda as my default Python 3.7
 
