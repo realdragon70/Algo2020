@@ -15,7 +15,7 @@
 
 프록시 설정은 선택 사항입니다. 개발 환경(사내/사외)에 따라 적절하게 변경하세요.
 
-```
+```bash
 #Tensorflow 설치
 > pip install tensorflow --proxy 70.10.15.10:8080 --trusted-host pypi.org
         
@@ -39,13 +39,13 @@
 
 
 시뮬레이터를 실행한 상태에서 dqn_custom_client.py 를 실행하면 자동차가 학습을 시작합니다.
-```
+```bash
 > python dqn_custom_client.py
 ```
 
 dqn_custom_client.py 의 내용은 다음과 같으며, 기본 파라미터 세팅과 행동공간, 보상 함수가 작성되어있습니다. 튜토리얼 맵과 함께 실행하면서, 학습을 시작해보시기 바랍니다 !!
 
-```
+```python
 from dqn_model import DQNClient
 from dqn_model import DQNParam
 import math
