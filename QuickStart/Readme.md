@@ -35,7 +35,7 @@
 
 - F1 키를 누르면 도움말이 나옵니다.
 
-<img src='/Images/5.png'>
+<img src='./Images/5.png'>
 <br>
 	  
 settings.json 수정하기
