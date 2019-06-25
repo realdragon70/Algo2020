@@ -1,15 +1,16 @@
-룰기반주행 
-알고리즘 개발 시작하기
+## 룰기반주행 
+
+## 알고리즘 개발 시작하기
 
 
 
-■ 사전 조건
+### ■ 사전 조건
 
 윈도우 7, 윈도우 10 에서만 시뮬레이터가 동작합니다.
 
 
 
-■ 개발 언어 및 에디터
+### ■ 개발 언어 및 에디터
 
 개발 언어는 python 입니다. 그리고 특별한 에디터가 필요하지 않습니다. python 코드를 수정할 수 있는 단순 텍스트 에디터라면 무엇이든 가능합니다.
 
@@ -19,30 +20,28 @@
 
 
 
-■ 로컬 개발 환경의 세팅
+### ■ 로컬 개발 환경의 세팅
 
-Quick start 페이지를 참고하시기 바랍니다.
+[Quick start](./Readme.md) 페이지를 참고하시기 바랍니다.
 
 
 
-■ 프로그램 실행 방법
+### ■ 프로그램 실행 방법
 
 1. Algo.exe 실행합니다.
 
 2. 소스 실행 (다운받은 소스는 drive_control.py 과 driving_client.py 이렇게 2개의 파일입니다.)
-
+```bash
 python driving_client.py
-
+```
 
 소스코드를 보시면 steering 값이 0 인 상태로 천천히 직진하도록 되어있기 때문에, 실행후 차가 앞으로 전진할 것입니다.
 
 주어지는 센싱 값에 따라 제어를 수행하면서 차가 도로를 이탈하지 않고 주행하도록 하면 됩니다.
 
 
-
-■ 소스코드의 구조
-
-
+### ■ 소스코드의 구조
+<img src='./Images/rule_based_diagram.png>
 
 driving_client.py 의 DrivingClient 클래스는 drive_control.py 의 DrivingController 클래스를 상속받고 있습니다.
 
@@ -56,28 +55,23 @@ DrivingClass 의 생성자에서 while 구문으로 제어루프를 돌리고 �
 
 
 
-당부사항
+### 당부사항
 
 코드가 작성 가능한 부분은 import 구문. 생성자 부분, control_driving 메서드 내부 이렇게 제한 되어있습니다.
-
 지정된 란에만 코드를 추가하여 주시기를 부탁드립니다.
-
-
 
 import 구문 추가시 기본적인 파이썬 패키지는 서버에도 설치가 되어있을 것이지만, 특별한 패키지가 설치 필요한 경우 대회 홈페이지 게시판을 통하여 요청주시기 바랍니다.
 
 
-
-■ 차량의 수집 /제어 정보
-
+### ■ 차량의 수집 /제어 정보
+```python
 def control_driving(self, car_controls, sensing_info):
-
+```
 
 control_driving 메서드의 sensing_info 파라미터를 통해 받는 정보는 다음과 같습니다.
 
 
-
-sensing_info.to_middle
+### sensing_info.to_middle
 
 도로의 중앙차선으로부터의 차량까지의 직선 거리(m) 입니다.
 
@@ -85,11 +79,11 @@ sensing_info.to_middle
 
 Ex) to_middle : -10.73 | Type : float
 
+<img src='./Images/Airsim_distance_from_center.png>
 
 
 
-
-sensing_info.collided
+### sensing_info.collided
 
 충돌했는지 여부. 장애물과 충돌상태에서 계속해서 가속을 하면 계속해서 False이며, 정지(속도 = 0) 하거나 충돌상태에서 벗어나면 False 로 바뀝니다.
 
@@ -97,7 +91,7 @@ Ex) collided : True | Type : bool
 
 
 
-sensing_info.speed
+### sensing_info.speed
 
 현재 차량의 속도 (km/h) 를 나타냅니다.
 
@@ -105,7 +99,7 @@ Ex) speed : 10.51 | Type : float
 
 
 
-sensing_info.moving_forward
+### sensing_info.moving_forward
 
 목표지점을 항하여 정주행(True) 하고 있는지 역주행(False) 하고 있는 나타냅니다.
 
@@ -113,7 +107,7 @@ Ex) moving_forward : True | Type : bool
 
 
 
-sensing_info.moving_angle
+### sensing_info.moving_angle
 
 도로의 방향에 얼마나 정렬(align) 되어있는지를 말해주는 각 입니다. 가령, 이 값이 0 인 경우 도로와 평행하게 주행하고 있음을 나타내고,
 
@@ -124,10 +118,11 @@ sensing_info.moving_angle
 Ex) moving_angle : -72.5 | Type : float
 
 
+<img src='./Images/Airsim_dgree.png>
 
 
 
-sensing_info.track_forward_angles
+### sensing_info.track_forward_angles
 
 현재 위치 기준으로 차량 전방의 10개 구간에 대한 각도를 배열로 알려줍니다. 한개의 구간은 10m 이며, 총 10 개의 정보를 미리 알려주므로 전방의 100 m 까지 정보를 나타내 주는 것이라고 볼 수 있습니다.
 
@@ -137,11 +132,11 @@ sensing_info.track_forward_angles
 
 Ex) track_forward_angles : [4, 8, 12, 16, 20, 27, 43, 52, 55, 58] | Type : list [int]
 
+<img src='./Images/Airsim_dgree_forward10.png>
 
 
 
-
-sensing_info.lap_progress
+### sensing_info.lap_progress
 
 Goal 지점 대비 얼마나 진행이 되었는지 percentage 로 보여줍니다. 100 이 되면 완주 한 것입니다.
 
@@ -149,7 +144,7 @@ Ex) lap_progress : 5.43 | Type : float
 
 
 
-sensing_info.track_forward_obstacles
+### sensing_info.track_forward_obstacles
 
 전방 100m 까지의 장애물 정보를 배열로 알려줍니다.
 
@@ -159,19 +154,19 @@ sensing_info.track_forward_obstacles
 
 (to_middle 값은 도로의 왼쪽에 있으면 - 값, 오른쪽에서 있으면 + 값으로 표시)
 
-
+<img src='./Images/Airsim_obstacle.png>
 
 
 
 장애물의 사이즈는 모든 맵에서 고정 길이 2 m 이며, to_middle 값 기준으로 좌우 1 m 라고 보시면 됩니다.
 
-
+<img src='./Images/Airsim_obstacle_2.png>
 
 Ex) track_forward_obstacles : [{'dist': 10.72, 'to_middle': 2.93}] | Type : list [dict]
 
 
 
-sensing_info.opponent_cars_info
+### sensing_info.opponent_cars_info
 
 전방 100m, 후방 100m 안에 있는 상대편 차량의 정보를 알려줍니다.
 
@@ -201,29 +196,30 @@ Ex) opponent_cars_info : [{'car_name': 'Car2', 'dist': -0.1, 'to_middle': 2.0, '
 
 
 
-About road width
+### About road width
 
 도로의 폭은 맵 별로 조금씩 차이가 납니다. 도로 이탈여부를 판단하기 위하여 도로폭을 사용하실 때에는 다음 변수값을 사용하시기 바랍니다. 이 값은 도로 절반 폭에 차량 절반 폭을 더한 값이며, 만약 도로가 10m 폭의 도로이면, 절반폭인 5 m + 차량절반폭(1.25m) 가 더해진 6.25 의 값을 가지고 있습니다.(부모 클래스에 멤버변수로 값을 담고 있기 때문에 위치에 상관없이 사용하실 수 있습니다.)
 
-
+```python
                 # road half width + car half width
                 self.half_road_limit
-            
+```            
 
 
-■ 차량제어
+### ■ 차량제어
 
-car_controls.steering
+### car_controls.steering
 
 steering 값이 + 값이면 오른쪽 방향으로 제어, steering 이 - 값이면 왼쪽 방향으로 제어가 이루어집니다.
 
 값의 범위 : -1 에서 +1 의 값
 
 
+<img src='./Images/Airsim_steering_wheel.png>
 
 
 
-car_controls.throttle (Accelerator)
+### car_controls.throttle (Accelerator)
 
 0 보다 큰 값은 전진을 의미하고, 0 보다 작은 값은 후진을 의미합니다. + 값에서의 기어는 속도에 따른 자동으로 변속이 이루어 집니다.
 
@@ -231,20 +227,21 @@ car_controls.throttle (Accelerator)
 
 
 
-car_controls.brake
+### car_controls.brake
 
 브레이크는 0 에서 1 사이의 값을 받습니다. throttle 과 별개로 차를 정지하거나 감속할때 사용가능합니다.
 
 
 
-■ 멀티플레이 가이드
+## ■ 멀티플레이 가이드
 
-Step1. json 파일 생성
+### Step1. json 파일 생성
 
 최초 시뮬레이터 실행시 하기와 같은 Choose Vehicle 이라는 메시지가 보이고
 
 이때 "예(Y)"를 클릭하면 자동차 모드로 실행이 됩니다.
 
+<img src='./Images/choose_vehicle.png>
 
 
 
@@ -256,14 +253,13 @@ Step1. json 파일 생성
 파일 : settings.json
 
 
-
-Step2. json 파일 수정하기
+### Step2. json 파일 수정하기
 
 ■ 멀티플레이
 
 - settings.json 파일을 열어서 기존 내용을 모두 지우고 하기 소스를 넣어줍니다.
 
-
+```json
     {
      "SettingsVersion": 1.2,
      "SimMode": "Car",
@@ -278,46 +274,47 @@ Step2. json 파일 수정하기
          }
       }
     }
-            
+```            
 
 
 ■ 싱글플레이
 
 - 차량 한대로 다시 변경하는 방법은 하기와 같이 작성합니다.
 
-
+```json
     {
      "SettingsVersion": 1.2,
      "SimMode": "Car"
     }
-            
+```            
 
 
-Step3. Python 파일 수정하기
+### Step3. Python 파일 수정하기
 
-■ 멀티플레이
+### ■ 멀티플레이
 
 - client python 파일이 2개 필요합니다. (driving_client.py 복사)
 - 각각의 client python 파일 하단에 있는 player_name을 수정합니다.
 
-
+```python
         def setting_player_name(self):
             player_name = ""   #조작할 차량의 이름을 기입
         return player_name
+```
             
 ＊차량의 이름은 settings.json Vehicles 내 Car1, Car2 입니다. (변경 가능합니다.)
 
 
 
-■ 싱글플레이
+### ■ 싱글플레이
 
 - 변경 없이 공백으로 두고 실행하면 됩니다.
 
 
 
-Step4. 차량 동시 운행
+### Step4. 차량 동시 운행
 
-■ 멀티플레이
+### ■ 멀티플레이
 
 1) 시뮬레이터 실행 (Algo.exe)
 
@@ -327,17 +324,17 @@ Step4. 차량 동시 운행
 
 
 
-■ 싱글플레이
+### ■ 싱글플레이
 
 1) 시뮬레이터 실행 (Algo.exe)
 
 2) 1번 Client python 실행
 
 
+<img src='./Images/two_car.png>
 
 
-
-■ 추가 기능
+### ■ 추가 기능
 
 카메라 위치 변경
 
@@ -347,9 +344,12 @@ Step4. 차량 동시 운행
 
 Car1 View
 
+<img src='./Images/car1_view.png>
+
 
 Car2 View
 
+<img src='./Images/car2_view.png>
 
 ※ 변경된 카메라 View에 따라서 좌측 상단의 state 값이 해당 차량의 상태값으로 변경되어 보여집니다.
 
@@ -357,9 +357,9 @@ Car2 View
 
 
 
-■ 맵 소개
+### ■ 맵 소개
 
-First Map : Basic Round
+### First Map : Basic Round
 
 - 난이도 (Difficulty) : ★★☆☆☆
 
@@ -371,15 +371,13 @@ First Map : Basic Round
 
 튜토리얼 단계의 기본적인 주행 봇을 만들어 보기 위한 트랙입니다.
 
+<img src='./Images/map1_1.png>
+
+<img src='./Images/map1_3.png>
 
 
 
-
-
-
-
-
-Second Map : Smurf Tree Map (추후 공개)
+### Second Map : Smurf Tree Map (추후 공개)
 
 - 난이도 (Difficulty) : ★★★☆☆
 
@@ -395,9 +393,9 @@ Second Map : Smurf Tree Map (추후 공개)
 
 나무와 절벽으로 둘러쌓여있는 구간이 많기 때문에 잘못하면 완주하지 못할 수도 있습니다.
 
+<img src='./Images/map2_1.png>
 
-
-
+<img src='./Images/map2_2.png>
 
 
 
