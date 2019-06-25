@@ -25,7 +25,7 @@ driving_client.py 의 control_driving( ) 함수 부분이 알고리즘(룰)을 �
 만약 함수 외부에 상태를 저장할 필요가 생기는 경우 멤버변수 Area 에 변수를 추가하여 사용하시기 바랍니다.
 
 
-```
+```python
 from drive_controller import DrivingController
 
 class MyDrivingClient(DrivingController):
@@ -84,7 +84,7 @@ if __name__ == '__main__':
 
 self.is_debug = True 이거나 많은 내용을 출력하는 경우, 특별한 조작 없이도 아래와 같은 오류가 발생할 수 있습니다.
 
-```
+```python
   Traceback (most recent call last):
     File "driving_client.py", line 75, in <module>
       client.run()
@@ -95,7 +95,7 @@ self.is_debug = True 이거나 많은 내용을 출력하는 경우, 특별한 �
 
 
 이러한 경우에는, drive_controller.py 파일의 no_control_interval_limit 값을 큰 값으로 변경해주시기 바랍니다.
-```
+```python
     # drive_controller.py
     no_control_interval_limit = 2000
 ```
