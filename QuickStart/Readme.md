@@ -18,24 +18,24 @@
 
 처음 Algo.exe 파일을 실행하는 경우 UE4 설치를 요구합니다. UE4 Prerequisite 설치 완료 후에, 시뮬레이터가 실행됩니다.
 
-<img src='./images/2.png'>
+<img src='./Images/2.png'>
 <br>
 
 그리고 실행시 다음과 같은 다이얼로그에서 Yes를 선택하여 주시기바랍니다. (No 를 하는 경우 자동차 대신 드론이 나타납니다)
 
-<img src='./images/3.png'>
+<img src='./Images/3.png'>
 <br>
 	  
 시뮬레이터가 실행된 화면입니다.
 
-<img src='./images/4.png'>
+<img src='./Images/4.png'>
 <br>
 
 시뮬레이터 도움말
 
 - F1 키를 누르면 도움말이 나옵니다.
 
-<img src='/images/5.png'>
+<img src='/Images/5.png'>
 <br>
 	  
 settings.json 수정하기
@@ -78,7 +78,7 @@ A. 아래의 URL로 접속하여, 3.7 버전 설치 파일을 다운로드 받�
 
 접속하면 macOS가 기본으로 선택되어 있으므로, Windows 메뉴를 선택해 주세요.
 
-<img src='/images/6.png'>
+<img src='/Images/6.png'>
 <br>
 
 https://www.anaconda.com/distribution/#download-section
@@ -90,12 +90,12 @@ Installation Type은 어느 것을 선택해도 상관없습니다. 여기서는
 
 ALL Users 를 선택 하여도 무방합니다. 다만, 패키지를 설치 또는 삭제시 cmd 창을에서 관리자 권한을 요구하는 경우가 있습니다.
 
-<img src='/images/7.png'>
+<img src='/Images/7.png'>
 <br>
 
 C. 고급 설치 옵션 선택하기.
 
-<img src='/images/8.png'>
+<img src='/Images/8.png'>
 
 a) Adding Anaconda to my PATH environment variable (default 는 체크해제)
 <br>
@@ -105,7 +105,7 @@ a) Adding Anaconda to my PATH environment variable (default 는 체크해제)
 
 이 모든것을 신경쓰고 싶지 않다면, 체크 해제한 상태로 설치하고 cmd 창 대신에 Anaconda Prompt 를 사용하시면 됩니다.
 
-<img src='/images/9.png'>
+<img src='/Images/9.png'>
 
 b) Register Anaconda as my default Python 3.7
 
