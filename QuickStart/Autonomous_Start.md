@@ -152,4 +152,4 @@ if __name__ == "__main__":
 
 ```
 
-더 자세한 내용은 [상세가이드](./autonomous_detail.md)를 참고해 주세요.
+더 자세한 내용은 [상세가이드](./Autonomous_Detail.md)를 참고해 주세요.
