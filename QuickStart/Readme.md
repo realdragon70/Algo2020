@@ -137,8 +137,8 @@ C:\Users\SDS>pip install airsim --proxy 프록시주소:포트 --trusted-host py
 
 #distributed 1.26.0 has requirement tornado>=5, but you'll have tornado 4.5.3 which is incompatible.
 
-
+<br>
 
 자 이제 거의 준비를 마쳤습니다.
-
-룰기반주행 또는 자율주행으로 이동하여 계속 진행해 주세요.
+<br>
+[룰기반주행](./Rulebase_start.md) 또는 [자율주행](./Autonomous_start.md)으로 이동하여 계속 진행해 주세요.
