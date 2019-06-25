@@ -18,24 +18,24 @@
 
 처음 Algo.exe 파일을 실행하는 경우 UE4 설치를 요구합니다. UE4 Prerequisite 설치 완료 후에, 시뮬레이터가 실행됩니다.
 
-<img src='./images/2.png>
+<img src='./images/2.png'>
 <br>
 
 그리고 실행시 다음과 같은 다이얼로그에서 Yes를 선택하여 주시기바랍니다. (No 를 하는 경우 자동차 대신 드론이 나타납니다)
 
-<img src='./images/3.png>
+<img src='./images/3.png'>
 <br>
 	  
 시뮬레이터가 실행된 화면입니다.
 
-<img src='./images/4.png>
+<img src='./images/4.png'>
 <br>
 
 시뮬레이터 도움말
 
 - F1 키를 누르면 도움말이 나옵니다.
 
-<img src='/images/5.png>
+<img src='/images/5.png'>
 <br>
 	  
 settings.json 수정하기
@@ -78,10 +78,10 @@ A. 아래의 URL로 접속하여, 3.7 버전 설치 파일을 다운로드 받�
 
 접속하면 macOS가 기본으로 선택되어 있으므로, Windows 메뉴를 선택해 주세요.
 
-
+<img src='/images/6.png'>
+<br>
 
 https://www.anaconda.com/distribution/#download-section
-
 
 
 B. 설치 파일을 실행하여, Anaconda를 설치합니다.
@@ -90,27 +90,22 @@ Installation Type은 어느 것을 선택해도 상관없습니다. 여기서는
 
 ALL Users 를 선택 하여도 무방합니다. 다만, 패키지를 설치 또는 삭제시 cmd 창을에서 관리자 권한을 요구하는 경우가 있습니다.
 
-
-
-
+<img src='/images/7.png'>
+<br>
 
 C. 고급 설치 옵션 선택하기.
 
-
-
-
+<img src='/images/8.png'>
 
 a) Adding Anaconda to my PATH environment variable (default 는 체크해제)
-
+<br>
 다음과 그림과 같이 Path 환경변수에 Anaconda를 추가하는 옵션입니다. 기존에 사용하던 파이썬 실행환경이 Path에 추가되어있는 경우 꼬일 수 있으므로, 이 옵션을 해제합니다.
 
 만약 아나콘다를 처음 설치하는 사용자라면 이 옵션을 체크해도 무방하며, cmd 창에서 현재 디렉토리 위치와 상관없이 파이썬을 실행 할 수 있습니다.
 
 이 모든것을 신경쓰고 싶지 않다면, 체크 해제한 상태로 설치하고 cmd 창 대신에 Anaconda Prompt 를 사용하시면 됩니다.
 
-
-
-
+<img src='/images/9.png'>
 
 b) Register Anaconda as my default Python 3.7
 
@@ -121,25 +116,22 @@ b) Register Anaconda as my default Python 3.7
 설치가 완료되면 command (cmd) 창 혹은 Anaconda prompt 에서 python 버전을 확인해보시기 바랍니다.
 
 
-
 다음과 같이 나오면 설치가 정상적으로 이루어진 것입니다.
-
+```
 C:\Users\SDS>python --version
   Python 3.7.3 :: Anaconda, Inc.
+```
 
-
-
-
-03. Airsim 모듈 설치하기
+### 03. Airsim 모듈 설치하기
 
 command (cmd) 창 혹은 Anaconda Prompt를 관리자 권한으로 실행 후 아래 명령어를 입력하시기 바랍니다.
 
 (command 창에서 pip install 이 원활하게 진행되지 않는 경우, Anaconda Prompt를 권장합니다.)
 
 프록시 설정은 선택 사항입니다. 개발 환경(사내/사외)에 따라 적절하게 변경하세요.
-
+```
 C:\Users\SDS>pip install airsim --proxy 프록시주소:포트 --trusted-host pypi.org
-
+```
 
 ※ airsim 설치 도중에 다음과 같은 경고가 나타나지만, 실행에는 문제가 없습니다.
 
