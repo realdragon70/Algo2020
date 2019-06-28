@@ -9,7 +9,7 @@ Please, download the Airsim simulator you want to play. A simulator file has onl
 ※ [Download link](https://drive.google.com/drive/folders/1fkf2ihHAxDxyMN9ABvPnUzwMGZhUcGJm)
 
 
-The runtime for Airsim is Microsoft Windows. We have tested on Windows 7, 10
+The runtime for Airsim is Microsoft Windows. We have tested on Windows 7, 10 (64 bit)
 
 Once you download a zipfile and unzip, they will look like below. You can execute Algo.exe to run Airsim simulator.
 
