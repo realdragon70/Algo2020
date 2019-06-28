@@ -178,7 +178,7 @@ The signature of the reward function is:
 ```Python
                 def compute_reward(self, sensing_info):
                     #...
-                    # 상황에 대한 적절한 reward 값 할당
+                    #  return proper reward under given conditionals
                     if abs(sensing_info.to_middle) < 5:
                         reward = 1
                     else:
@@ -357,6 +357,7 @@ Example 2) Driving along the center line
 ```
 
 <br>
+
 ### ■ Checking reward function
 
 It is quite not easy to find out whether my reward function really works well, even if you do the training on the simulator with the function you've just made. So you need to check on the road to see if the reward is returning as you intended. The file to do this is dqn_reward_test.py.
