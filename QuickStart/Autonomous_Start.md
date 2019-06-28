@@ -1,3 +1,5 @@
+Korean | [English](./Autonomous_Start_Eng.md)
+
 ## 자율주행 
 
 ### 01. 사전 진행 내용
@@ -152,4 +154,4 @@ if __name__ == "__main__":
 
 ```
 
-더 자세한 내용은 [상세가이드](./Autonomous_Detail.md)를 참고해 주세요.
+더 자세한 내용은 [상세가이드](../Guide/Autonomous_Detail.md)를 참고해 주세요.
