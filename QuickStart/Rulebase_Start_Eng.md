@@ -108,4 +108,4 @@ Run the simulator and press F8 (You can operate the car with the arrow keys.)
 
 ※ F8 button is not working while Python is running. If you want to use F8 button again, please reset the simulator by pressing backspace key.
 
-For more information, please refer to the [detailed guide](./Rulebase_Detail_Eng.md).
+For more information, please refer to the [detailed guide](../Guide/Rulebase_Detail_Eng.md).
