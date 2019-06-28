@@ -26,7 +26,7 @@ Only 'if statement', 'simple arithmetic operations' are enough to archive the go
 
 ### ■ Local development environment settings
 
-Please refer [Quick start page.](../QuickStart/Readme.md) 
+Please refer [Quick start page.](../QuickStart/Readme_Eng.md) 
 
 
 <br>
