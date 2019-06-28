@@ -92,3 +92,6 @@ For the main event, the goal for the paticipants is to create model which is wel
 - The tracks for qualification/Main eventis will be selected by the contest TF
 
 - The operating rule of the competition can be changed according to circumstances and will be announced prior to change.
+
+<br>
+Ok! Let's go to start develop this game! [QuickStart](./QuickStart/Readme_Eng.md)
