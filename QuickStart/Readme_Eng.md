@@ -1,4 +1,4 @@
-[Korean](./Readme.md) | 
+[Korean](./Readme.md) | English
 
 ## Get Simulator
 ### 01. Getting Airsim simulator ready.
