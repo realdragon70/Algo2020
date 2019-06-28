@@ -1,4 +1,4 @@
-Korean | [English](./Readme_Eng.md)
+Korean | [English](./README_Eng.md)
 
 ## 대회소개 
 ------------------------
