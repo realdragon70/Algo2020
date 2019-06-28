@@ -1,4 +1,4 @@
-Korean | [English](./Readme_Eng.md)
+Korean | [English](./Readme_Eng.md)  | [Home](../README.md)
 
 ## 시뮬레이터 설치하기 
 ### 01. 시뮬레이터 준비하기
