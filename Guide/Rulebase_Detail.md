@@ -26,7 +26,7 @@ Korean | [English](./Rulebase_Detail_Eng.md)  | [Home](../README_Eng.md)
 
 ### ■ 로컬 개발 환경의 세팅
 
-[Quick start](./Readme.md) 페이지를 참고하시기 바랍니다.
+[Quick start](../QuickStart/Readme.md)  페이지를 참고하시기 바랍니다.
 
 
 <br>
