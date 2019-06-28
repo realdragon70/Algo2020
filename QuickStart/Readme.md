@@ -9,7 +9,7 @@ Korean | [English](./Readme_Eng.md)
 ※ [관련 파일 다운로드 링크](https://drive.google.com/drive/folders/1fkf2ihHAxDxyMN9ABvPnUzwMGZhUcGJm)
 
 
-시뮬레이터 실행환경은 MS Windows 7 / MS Windows 10 입니다.
+시뮬레이터 실행환경은 MS Windows 7 / MS Windows 10 입니다. (64 bit)
 
 다운받은 파일압축을 풀면 다음과 같이 되어있습니다. 이곳에서 Algo.exe 를 실행하면 됩니다.
 
