@@ -4,7 +4,7 @@
 -------------------
 ### 01. Prerequisites
 
-Please, follow the steps in the [Quick Start - Get Simulator](./Readme.md)
+Please, follow the steps in the [Quick Start - Get Simulator](./Readme_Eng.md)
 
 
 
