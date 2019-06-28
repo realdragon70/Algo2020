@@ -449,8 +449,16 @@ Tutorial Map 에서 안정적으로 학습을 해보셨다면, 이 맵에서 본
 
 
 
-Basic Round - (2):
+## Basic Round - (2) :
 
-곧 공개 예정 입니다.
+- 난이도 (Difficulty) : ★★☆☆☆
 
+- 도로폭 (Road width) : 10 m
 
+- 도로 길이 (Road length) : 1,360m
+
+Basic Round 1번 맵에서 장애물이 추가된 맵 입니다.
+
+해당 맵에서 장애물에 대해 학습해 보시기 바랍니다.
+
+<img src='./Images/self_map3_4.png'>
