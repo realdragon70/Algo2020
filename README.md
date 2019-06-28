@@ -91,3 +91,5 @@ Korean | [English](./README_Eng.md)
 - 대회 운영 방식은 사정에 따라 변경될 수 있으며, 변경 전 충분히 사전 공지를 할 예정입니다.
 
 <br><br>
+
+자, 그럼 설치하러 가보실까요? [QuickStart](./QuickStart/Readme.md)
