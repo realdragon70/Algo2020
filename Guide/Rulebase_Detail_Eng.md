@@ -1,4 +1,4 @@
-[Korean](./Rulebase_Detail.md] | English
+[Korean](./Rulebase_Detail.md) | English
 
 ## Rule-based Driving 
 
