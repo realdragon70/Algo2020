@@ -1,4 +1,4 @@
-[Korean](./REAMDE.md) | English
+[Korean](./README.md) | English
 
 ## Introduction  
 ------------------------
