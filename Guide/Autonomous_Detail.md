@@ -462,3 +462,21 @@ Basic Round 1번 맵에서 장애물이 추가된 맵 입니다.
 해당 맵에서 장애물에 대해 학습해 보시기 바랍니다.
 
 <img src='./Images/self_map3_4.png'>
+
+<br>
+
+
+## Speed Racing :
+
+- 난이도 (Difficulty) : ★★☆☆☆
+
+- 도로폭 (Road width) : 16 m
+
+- 도로 길이 (Road length) : 1,860m
+
+장애물이 없는 서킷 맵으로 긴 직선주로가 있어 속도 제어가 필수적입니다.
+
+빠른 속도로 주행이 필요한 맵인만큼 차량 전복에 주의가 필요합니다.
+
+<img src='./Images/self_map4_2.png'>
+
