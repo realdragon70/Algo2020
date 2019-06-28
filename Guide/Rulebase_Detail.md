@@ -1,4 +1,4 @@
-Korean | [English](./Rulbase_Detail_Eng.md)
+Korean | [English](./Rulebase_Detail_Eng.md)
 
 ## 룰기반주행 
 
