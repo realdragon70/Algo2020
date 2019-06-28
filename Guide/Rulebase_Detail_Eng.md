@@ -74,7 +74,7 @@ Please add the code only in these specified field.
 
 
 
-The basic Python package will be installed on the server for you to add import syntax. However, if you need to install a special package, please submit a request on the conference website.
+The basic Python package will be installed on the server for you to add import syntax. However, if you need to install a special package, please ask a request via e-mail (algo.contest@samsung.com)
 
 
 <br>
