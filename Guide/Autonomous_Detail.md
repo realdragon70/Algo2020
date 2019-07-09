@@ -475,7 +475,7 @@ Basic Round 1번 맵에서 장애물이 추가된 맵 입니다.
 빠른 속도로 주행이 필요한 맵인만큼 차량 전복에 주의가 필요합니다.
 
 
-Second Map : Speed Racing (2)
+### Second Map : Speed Racing (2)
 
 - 난이도 (Difficulty) : ★★★☆☆
 
