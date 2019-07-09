@@ -409,17 +409,25 @@ Car2 View
 <br>
 
 
-### Second Map : Speed Racing
+### Second Map : Speed Racing (1)
 
 - 난이도 (Difficulty) : ★★☆☆☆
-
-- 도로폭 (Road width) : 16m
-
-- 도로 길이 (Road length) : 1,860m
 
 장애물이 없는 서킷 맵으로 긴 직선주로가 있어 속도 제어가 필수적입니다.
 
 빠른 속도로 주행이 필요한 맵인만큼 차량 전복에 주의가 필요합니다.
+
+
+### Second Map : Speed Racing (2)
+
+- 난이도 (Difficulty) : ★★★☆☆
+
+Speed Racing (1)에 장애물이 추가된 버전입니다.
+
+
+- 도로폭 (Road width) : 16m
+
+- 도로 길이 (Road length) : 1,860m
 
 <img src='./Images/self_map4_2.png'>
 
