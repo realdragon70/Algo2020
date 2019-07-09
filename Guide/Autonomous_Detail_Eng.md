@@ -501,7 +501,7 @@ Step 2 is a more curved road. You might want to train to drive curves with more 
 <img src='./Images/self_map2_1.png'><img src='./Images/self_map2_2.png'>
 
 
-## Basic Round - (1) :
+### Basic Round - (1) :
 
 - Difficulty : ★☆☆☆☆
 
@@ -516,7 +516,7 @@ This is a race track with a circular shape. It has both straight and curved road
 
 
 
-## Basic Round - (2) :
+### Basic Round - (2) :
 
 - Difficulty : ★★☆☆☆
 
@@ -532,17 +532,26 @@ Train your model with obstacles in this map.
 <br>
 
 
-## Speed Racing :
+### Second Map : Speed Racing (1)
 
 - Difficulty : ★★☆☆☆
-
-- Road width : 16 m
-
-- Road length : 1,860m
 
 This is the circuit map with no obstacles. It has a long straight line, so speed control is essential.
 
 You need to be careful about overturning the vehicle because it is a map that needs to race at a high speed.
+
+
+### Second Map : Speed Racing (2)
+
+- Difficulty : ★★★☆☆
+
+A version with added obstacles to Speed Racing (1)
+
+
+
+- Road width : 16m
+
+- Road length : 1,860m
 
 <img src='./Images/self_map4_2.png'>
 
