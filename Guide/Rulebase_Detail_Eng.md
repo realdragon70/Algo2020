@@ -421,18 +421,26 @@ This is a track for creating the basic driving bot for the tutorial stage
 <br>
 
 
-### Second Map : Speed Racing
+### SSecond Map : Speed Racing (1)
 
 - Difficulty : ★★☆☆☆
-
-- Road width : 16m
-
-- Road length : 1,860m
 
 This is the circuit map with no obstacles. It has a long straight line, so speed control is essential.
 
 You need to be careful about overturning the vehicle because it is a map that needs to race at a high speed.
 
+
+### Second Map : Speed Racing (2)
+
+- Difficulty : ★★★☆☆
+
+A version with added obstacles to Speed Racing (1)
+
+
+
+- Road width : 16m
+
+- Road length : 1,860m
 <img src='./Images/self_map4_2.png'>
 
 <br>
