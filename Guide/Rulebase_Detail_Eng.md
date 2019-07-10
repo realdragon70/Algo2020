@@ -445,7 +445,7 @@ A version with added obstacles to Speed Racing (1)
 
 <br>
 
-### Third Map : Smurf Valley Map (coming soon)
+### Third Map : Smurf Valley Map 
 
 - Difficulty : ★★★☆☆
 
