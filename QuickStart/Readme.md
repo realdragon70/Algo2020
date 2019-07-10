@@ -147,3 +147,6 @@ C:\Users\SDS>pip install airsim --proxy 프록시주소:포트 --trusted-host py
 
 <br><br>
 
+MSR Aerial Information and Robotics Platform/Simulator (AirSim), Copyright (c) Microsoft Coporation.
+2019 Algorithm Contest uses the Unreal® Engine.  Unreal® is a trademark or registered trademark of Epic Games, Inc. in the United States of America and elsewhere. 
+Unreal® Engine, Copyright 1998 – 2019, Epic Games, Inc.  All rights reserved.
