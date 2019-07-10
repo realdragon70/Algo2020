@@ -433,7 +433,7 @@ Speed Racing (1)에 장애물이 추가된 버전입니다.
 
 <br>
 
-### Third Map : Smurf Valley Map (추후 공개)
+### Third Map : Smurf Valley Map 
 
 - 난이도 (Difficulty) : ★★★☆☆
 
