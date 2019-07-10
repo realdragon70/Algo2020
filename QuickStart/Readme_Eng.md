@@ -147,3 +147,8 @@ We are almost ready.
 <br>
 Go to Rule-based Driving or Autonomous Driving to continue.
 Go to [Rule-based Driving](./Rulebase_Start_Eng.md) or [Autonomous Driving](./Autonomous_Start_Eng.md) to continue.
+
+
+MSR Aerial Information and Robotics Platform/Simulator (AirSim), Copyright (c) Microsoft Coporation.
+2019 Algorithm Contest uses the Unreal® Engine.  Unreal® is a trademark or registered trademark of Epic Games, Inc. in the United States of America and elsewhere. 
+Unreal® Engine, Copyright 1998 – 2019, Epic Games, Inc.  All rights reserved.
