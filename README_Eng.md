@@ -81,6 +81,10 @@ For the main event, the goal for the paticipants is to create model which is wel
 
 - If you make the other team's vehicle impossible to operate or drive, you will be disqualified.However, normal frontal obstruction is allowed and collision and bump are allowed if you do not cause the opponent vehicle's failure or overturning
 
+- The ‘self.half_road_limit’ is the only variable allowed to use among the variables defined in the parent class. Other variables, including the ‘self.way_points’ and ‘self.all_obstacles’, are not allowed to copy values to local variables manually or access them directly.
+
+- Overriding methods in parent class, especially ‘run()’ method, is not allowed.
+
 - Any illegal acts caused by cheating on simulator or environment setting change will be disqualified. (If you want to use other Apis and development method not defined your own (not built-in API), Please be sure to ask the Contest TF in advance).
 
 - After the game, if any cheating is found through a post review (We will check the video and source code), the result will be canceled.
