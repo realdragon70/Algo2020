@@ -65,9 +65,16 @@ DrivingClass 의 생성자에서 while 구문으로 제어루프를 돌리고 �
 ### 당부사항
 
 코드가 작성 가능한 부분은 import 구문. 생성자 부분, control_driving 메서드 내부 이렇게 제한 되어있습니다.
-지정된 란에만 코드를 추가하여 주시기를 부탁드립니다.
 
-import 구문 추가시 기본적인 파이썬 패키지는 서버에도 설치가 되어있을 것이지만, 특별한 패키지가 설치 필요한 경우에는 이메일로 요청해주세요. (algo.contest@samsung.com)
+지정된 란에만 코드를 추가하여 주시기를 부탁드립니다. 추가로 아래의 내용에 허용됩니다.
+
+- ‘self.half_road_limit’ 변수를 사용할 수 있습니다.
+
+- ‘driving_client.py’ 파일에 custom 함수 또는 custom 클래스를 추가할 수 있습니다.
+
+
+
+import 구문 추가시 기본적인 파이썬 패키지는 서버에도 설치가 되어있겠지만, 특별한 패키지 설치가 필요한 경우 알고리즘 경진대회 공식 메일(algo.contest@samsung.com)을 통하여 통하여 요청주시기 바랍니다.
 
 <br>
 
@@ -147,6 +154,7 @@ Ex) moving_angle : -72.5 | Type : float
 Ex) track_forward_angles : [4, 8, 12, 16, 20, 27, 43, 52, 55, 58] | Type : list [int]
 
 <img src='./Images/Airsim_dgree_forward10.png'>
+<img src='./Images/Airsim_dgree_forward_out.png'>
 
 
 <br>
@@ -163,6 +171,7 @@ Ex) lap_progress : 5.43 | Type : float
 ### sensing_info.track_forward_obstacles
 
 전방 100m 까지의 장애물 정보를 배열로 알려줍니다.
+<img src='./Images/ob_01.png'>
 
 장애물이 없는 경우 배열 사이즈가 0 이며(empty), 장애물이 있으면 가까이 있는 것부터 차례로 배열에 추가 됩니다.
 
@@ -189,6 +198,8 @@ Ex) track_forward_obstacles : [{'dist': 10.72, 'to_middle': 2.93}] | Type : list
 
 배열의 순서는 내 차와 가까이 있는 순으로 정렬하여 들어옵니다.
 
+<img src='./Images/opp_01.png>
+
 상대편 차량에 대해 주어지는 정보는 아래와 같습니다.
 
 1) 상대 차량의 이름
@@ -200,20 +211,25 @@ Ex) track_forward_obstacles : [{'dist': 10.72, 'to_middle': 2.93}] | Type : list
 4) 상대편 차량의 속도
 
 <br>
-
-### sensing_info.opponent_cars_info
+<img src='./Images/opp_02.png>
+          
 내 차량과 상대편 차량의 거리는 각 차의 중앙점을 기준으로 표시됩니다.
 
-가령 상대방과 내 차의 거리가 +10 m 이고, 내 차와의 to_middle(중앙차로에서의 거리) 값이 비슷하다면 각 차량의 길이를 고려했을 때 바로 내 차의 앞을 주행하고 있는 것이겠죠.
+가령 상대방과 내 차의 거리가 +10 m 이고, 내 차와의 to_middle(중앙차로에서의 거리) 값이 비슷하다면 
+각 차량의 길이를 고려했을 때 바로 내 차의 앞을 주행하고 있는 것이겠죠.          
+          
+<img src='./Images/opp_03.png>   
+상대 차량이 전방에 있는 경우, 거리는 양수값으로 들어옵니다. 
+숫자값은 m 단위 입니다.
+          
+<img src='./Images/opp_04.png>   
+상대 차량이 후방에 있는 경우, 거리는 음수값으로 들어옵니다.
 
-상대 차량이 전방에 있는 경우, 거리는 양수값으로 들어옵니다. 숫자값은 m 단위 입니다. 상대 차량이 후방에 있는 경우, 거리는 음수값으로 들어옵니다.
-
+<img src='./Images/opp_05.png>   
 곡선인 도로인 경우에도, 위의 이미지와 같이 도로 중앙선을 기준으로 거리를 측정하였습니다.
-
 Ex) opponent_cars_info : [{'car_name': 'Car2', 'dist': -0.1, 'to_middle': 2.0, 'speed': -0.0}] | Type : list [dict]
-
-
 <br>
+
 
 ### About road width
 
