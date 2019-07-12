@@ -185,7 +185,7 @@ Ex) lap_progress : 5.43 | Type : float
 
 장애물의 사이즈는 모든 맵에서 고정 길이 2 m 이며, to_middle 값 기준으로 좌우 1 m 라고 보시면 됩니다.
 
-<img src='./Images/Airsim_obstacle_2.png>
+<img src='./Images/Airsim_obstacle_2.png'>
 
 Ex) track_forward_obstacles : [{'dist': 10.72, 'to_middle': 2.93}] | Type : list [dict]
 
@@ -198,7 +198,7 @@ Ex) track_forward_obstacles : [{'dist': 10.72, 'to_middle': 2.93}] | Type : list
 
 배열의 순서는 내 차와 가까이 있는 순으로 정렬하여 들어옵니다.
 
-<img src='./Images/opp_01.png>
+<img src='./Images/opp_01.png'>
 
 상대편 차량에 대해 주어지는 정보는 아래와 같습니다.
 
@@ -211,21 +211,21 @@ Ex) track_forward_obstacles : [{'dist': 10.72, 'to_middle': 2.93}] | Type : list
 4) 상대편 차량의 속도
 
 <br>
-<img src='./Images/opp_02.png>
+<img src='./Images/opp_02.png'>
           
 내 차량과 상대편 차량의 거리는 각 차의 중앙점을 기준으로 표시됩니다.
 
 가령 상대방과 내 차의 거리가 +10 m 이고, 내 차와의 to_middle(중앙차로에서의 거리) 값이 비슷하다면 
 각 차량의 길이를 고려했을 때 바로 내 차의 앞을 주행하고 있는 것이겠죠.          
           
-<img src='./Images/opp_03.png>   
+<img src='./Images/opp_03.png'>   
 상대 차량이 전방에 있는 경우, 거리는 양수값으로 들어옵니다. 
 숫자값은 m 단위 입니다.
           
-<img src='./Images/opp_04.png>   
+<img src='./Images/opp_04.png'>   
 상대 차량이 후방에 있는 경우, 거리는 음수값으로 들어옵니다.
 
-<img src='./Images/opp_05.png>   
+<img src='./Images/opp_05.png'>   
 곡선인 도로인 경우에도, 위의 이미지와 같이 도로 중앙선을 기준으로 거리를 측정하였습니다.
 Ex) opponent_cars_info : [{'car_name': 'Car2', 'dist': -0.1, 'to_middle': 2.0, 'speed': -0.0}] | Type : list [dict]
 <br>
