@@ -70,11 +70,15 @@ Therefore, any modifications other than driving_client.py will not be reflected 
 
 You can only write code in import syntax, generator part, and inner control_driving method.
 
-Please add the code only in these specified field.
+Please add the code only in these specified field. In addition, the following are allowed:
+
+- You can use the ‘self.half_road_limit’ variable.
+
+- You can add custom methods or custom classes to the ‘driving_client.py’ file.
 
 
 
-The basic Python package will be installed on the server for you to add import syntax. However, if you need to install a special package, please ask a request via e-mail (algo.contest@samsung.com)
+The basic Python package will be installed on the server for you to add import syntax. However, if you need to install a special package, please request by official email(algo.contest@samsung.com).
 
 
 <br>
@@ -157,6 +161,7 @@ For example, if below numbers are provided, you can guess that the road is curvi
 Ex) track_forward_angles : [4, 8, 12, 16, 20, 27, 43, 52, 55, 58] | Type : list [int]
 
 <img src='./Images/Airsim_dgree_forward10.png'>
+<img src='./Images/Airsim_dgree_forward_out.png'>
 
 
 <br>
@@ -173,6 +178,7 @@ Ex) lap_progress : 5.43 | Type : float
 ### sensing_info.track_forward_obstacles
 
 It shows obstacle information as an array up to 100m ahead.
+<img src='./Images/ob_01.png'>
 
 If there are no obstacles, the array size is 0(empty) and if there are obstacles, they are added to the array in order from the closest one.
 
@@ -187,7 +193,7 @@ The information on the array is the distance between my vehicle and the obstacle
 
 The size of the obstacle is fixed length of 2m in all maps, and it is 1m on the left and right from the to_middle value.
 
-<img src='./Images/Airsim_obstacle_2.png>
+<img src='./Images/Airsim_obstacle_2.png'>
 
 
 Ex) track_forward_obstacles : [{'dist': 10.72, 'to_middle': 2.93}] | Type : list [dict]
@@ -201,6 +207,9 @@ It shows the information of the opponent's vehicle within 100 meters ahead and 1
 
 The order of the arrays is in the order in which they are close to my car.
 
+<img src='./Images/opp_01.png'>
+
+
 The following information is provided for the opponent vehicle.
 
 1) Name of the opponent vehicle
@@ -212,17 +221,26 @@ The following information is provided for the opponent vehicle.
 4) Speed of the opponent vehicle
 
 <br>
+<img src='./Images/opp_02.png'>
+
 
 The distance between my vehicle and the opponent's vehicle is indicated by the center point of each car.
 
 For example, if the distance between my vehicle and opponent’s vehicle is +10m and the to_middle value is similar to my vehicle, the opponent’s vehicle is right in front of mine considering the length of the car.
 
-If the opponent vehicle is ahead, the distance is indicated with a positive number. The numeric value is in units of meter. If the opponent vehicle is behind of your car, the distance is indicated with a negative number.
+<img src='./Images/opp_03.png'>
+
+If the opponent vehicle is ahead, the distance is indicated with a positive number. 
+The numeric value is in units of meter.
+
+<img src='./Images/opp_04.png'>
+If the opponent vehicle is behind of your car, the distance is indicated with a negative number.
+          
+<img src='./Images/opp_05.png'>        
 
 Even for curved roads, we measured the distance based on the center line of the road as shown in the image above.
 
 Ex) opponent_cars_info : [{'car_name': 'Car2', 'dist': -0.1, 'to_middle': 2.0, 'speed': -0.0}] | Type : list [dict]
-
 
 <br>
 
