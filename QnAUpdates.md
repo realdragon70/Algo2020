@@ -195,9 +195,9 @@ A. Declare the variable outside the method as follows, and access it by using se
 variable_count= 0
 variable_bool= False
 
-# =========================================================== #
-# Reward Function
-# =========================================================== #
+// =========================================================== 
+// Reward Function
+// =========================================================== 
 def compute_reward(self, sensing_info):
 
     # =========================================================== #
