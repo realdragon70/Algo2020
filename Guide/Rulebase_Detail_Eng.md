@@ -244,6 +244,16 @@ Ex) opponent_cars_info : [{'car_name': 'Car2', 'dist': -0.1, 'to_middle': 2.0, '
 
 <br>
 
+### sensing_info.distance_to_way_points
+ 
+
+It tells you about the straight-line distance between the vehicle and the next 10 way-points.
+ 
+Ex) distance_to_way_points : [2.98, 12.47, 22.42, 32.39, 42.34, 52.32, 62.26, 72.13, 81.83, 91.22] | Type : list [float64]
+
+
+<img src='./Images/dist_to_waypoints_01.png'>   
+
 ### About road width
 
 The road width is vary by tracks. To get to know whether the vehicle is on the road or not, use the following variable. This value is half width of the road plus half width of the vehicle. Let's say the road width is 10 m, then this value returns 6.25 which is 5m(half of road) + 1.25m(half of vehicle). (It is declared as a member variable in parent class, so it can be accessed from anywhere)
