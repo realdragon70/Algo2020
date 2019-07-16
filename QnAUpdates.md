@@ -190,18 +190,18 @@ if sensing_info.lap_progress > 10 and finish10 = False :
 
 A. Declare the variable outside the method as follows, and access it by using self in the method.
     Initialize it, when Reward is -1.
-
+```
 #member variables
 variable_count= 0
 variable_bool= False
 
-// =========================================================== 
-// Reward Function
-// =========================================================== 
+# =========================================================== #
+# Reward Function                                             #
+# =========================================================== #
 def compute_reward(self, sensing_info):
 
     # =========================================================== #
-    # Area for writing code
+    # Area for writing code                                       #
     # =========================================================== #
     # Editing area starts from here
     #
