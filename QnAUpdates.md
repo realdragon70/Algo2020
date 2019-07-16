@@ -53,41 +53,55 @@ If there is a problem after the above change and after the contest,
 You can roll it back.
 
 Q. I can give the steering value from -1 to 1, I want to know the actual angle according to the steering value (When steering value is 1)
+
 A. As a result of checking the property value of the vehicle, the angle when steering value is 1 is 50 degree.
+
 
 Q, When I start, I start after 3 seconds countdown, and I want to know when the car accelerates.
     I wonder if the accelerator is being pressed from the countdown, or whether accelerator is pressed after 1 is counted.
+
 A. It has been developed to apply accelerator values from the moment when 1 disappears and GO is displayed.
 
+
 Q. How is the handling of the opponent vehicle obstructing the running from the front with the emergency brakes?
+
 A. Intentional braking may be disqualified for the purpose of overturning the opponent vehicle rather than the normal driving.
     The website competition rule (disqualification processing) part also stipulates as follows.
    - If you make the other team's vehicle impossible to operate or drive, you will be disqualified.
     However, normal frontal obstruction is allowed and collision and bump are allowed 
     if you do not cause the opponent vehicle's failure or overturning
 
+
 Q There is no brake action in autonomous driving model. Can I put a brake action on it?
+
 A. No problem, You can use it. However, when we tested it, It's not working properly.
+
 
 Q. Is it possible to import the following parts needed for development?
     import math from scipy
     import interpolate
+    
 A. Most packages are importable. When adding packages that are not Anaconda native packages,
 We'll also install it on the server and provide the environment for importing.
 
+
 Q. Will a new map(track) be added during the tournament? 
     Or is the map specified and randomly selected?
+    
 A. As it is known, new maps will be released continuously before the competition.
     In the preliminary league, two maps were selected, and the race is run on any of these maps randomly.
     In the preliminary and final games, we will user several maps.
     (Please check the announcement for details, Notice - Schedule menu on the homepage)
 
+
 Q. I felt that it is not easy to learn as the width of the road track changed in autonomous driving.
     Please let me know which width is actually used or fixed?
+    
 A. Currently, the road width is 16M, which is mostly set.
     However, we provide variable that specify the width of the road, Please refer to it.
     # road half width + car half width
       self.half_road_limit
+
 
 Q. For the rule-based competition, are we writing a different algorithm for every single map to get the fastest time, 
     or are we submitting one algorithm that will be used for all maps? 
@@ -96,12 +110,14 @@ Q. For the rule-based competition, are we writing a different algorithm for ever
     The current records from Korea look like they have been written exactly for the maps. 
     I am not sure whether I want to write code that designs a car that can run well even on a map 
     it has never seen before, or if I simply want to optimize my vehicle to be the fastest on the maps that you have presented to us
+    
 A. The competition will be made among the map that are release (A few more maps are on the way to release, soon).
     For the leader board, It seems like they are writing the code for the specific track. 
     but the real competition will not be on just one single map. and also it will be a match with 2 car racing. 
     So, there will be more accidental factors. Ultimately, the algorithm should be working well for the various map 
     and also responsive to unexpected situation.
     Regarding competition rule and how to will be announced today. So please check with that.
+
 
 Q.  I have been having trouble working with the autonomous training process. 
     If I set clock speed to 2 (in both the settings file and the model.py file), and then I run dqn_custom_client.py, 
@@ -129,6 +145,7 @@ A. Delays may occur between the simulator and the program depending on the user 
     The same PC may have a large difference depending on resource usages on PC.
     Therefore, the tournament simulator PCs are kept fairly equally with the same specifications and conditions.
 
+
 Q. When Prior to departure counting, sensing_info.moving_forward is sometimes returned as False.
     I think it must be True in this circumstances.
 A. The current sensing_info.moving_forward value is implemented as follows.
@@ -142,10 +159,13 @@ It calculates the angle at which the vehicle is moving and returns the value acc
 if -90 < my angle < 90, return True.
 To be clear, it is False if it is away from the destination and True if it is getting closer.
 
+
 Q. Can I turn off the mouse capture option in the simulator's Unreal Engine? I want to switch to Alt + tab.
+
 A. (Thanks to Google for finding your answer.
-    Fixed some options in the project settings in the Unreal Engine.
+    Fixed some options in the project settings in the Unreal Engine.    
     We will apply it to the next version of the patch distribution.
+    
 
 Q. You said that you are going to the tournament through 1 vs 1 from the rule based race preliminaries.
     Whether this is the left or right of the vehicle position is very important.
@@ -159,14 +179,18 @@ A. It is true that the game has an effect on the initial starting position of th
     
 
 Q. A real car does not slow down so much when I turn off accelerator, but the simulator slows down. Why is this?
+
 A. We didn't make any special setting changes, but it is just the characteristics of the simulator.
 
+
 Q. Smurf maps are different from speed racing map, because of road characteristics, driving performance is different.
+
     If this is different for each map, Shall we submit different codes for each map when submission?
 A. It is not particularly different from a Smurf map. There seems to be a difference in the amount of resources rendered maps. 
     And, in the qualifications and tournaments, instead of submitting different codes for each map, 
     you run multiple maps with only one source code. In other words, 
     you have to submit a source that runs well throughout the various tracks.
+    
 
 Q. In the autonomous driving, I want to give the reward by looking at the time 
     when sensing_info.lap_progress exceeds 10%, 20%, and 30%.
@@ -226,11 +250,14 @@ def compute_reward(self, sensing_info):
 ```
 
 Q. Are we supposed to use different model weight for each track given for evaluation?
+
 A. Yes, you can use different model weight for each track. There will be competitions within each map.
     But also for the final competition, we are planning to get submission for general model which runs several tracks well. 
     In that case, you should train the model with several tracks. Those tracks will be noticed prior to the final competition.
 
+
 Q. Can I submit the learned model multiple times to check the result until the final submission date or once you submit it will the final?
+
 A. Yes, you can submit as many times as you want to evaluate you model on the server. 
     The lap time can be differ from local machine because of different condition (CPU, RAM) 
     but we are on the process of unifying the specification of the server machines 
