@@ -230,6 +230,15 @@ Ex) track_forward_obstacles : [{'dist': 10.72, 'to_middle': 2.93}] | Type : list
 Ex) opponent_cars_info : [{'car_name': 'Car2', 'dist': -0.1, 'to_middle': 2.0, 'speed': -0.0}] | Type : list [dict]
 <br>
 
+### sensing_info.distance_to_way_points
+
+전방 10개의 way-point 와 차량의 직선 거리를 제공합니다.
+ 
+Ex) distance_to_way_points : [2.98, 12.47, 22.42, 32.39, 42.34, 52.32, 62.26, 72.13, 81.83, 91.22] | Type : list [float64]
+
+<img src='./Images/dist_to_waypoints_01.png'>   
+
+
 
 ### About road width
 
