@@ -480,4 +480,5 @@ Speed Racing (1)에 장애물이 추가된 버전입니다.
 
 <img src='./Images/map2_2.png'>
 
-
+차량 및 트랙 관련 기본정보 확인은 여기로 
+[Basic Information](./Basic_Info.md)
