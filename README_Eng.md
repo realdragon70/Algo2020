@@ -101,3 +101,7 @@ For the main event, the goal for the paticipants is to create model which is wel
 Ok! Let's go to start develop this game! 
 
 [QuickStart](./QuickStart/Readme_Eng.md)
+
+Basic Information about Car and Circuit 
+
+[Basic Information](./Guide/Basic_Info_En.md)
