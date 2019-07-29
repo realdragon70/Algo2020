@@ -489,6 +489,7 @@ Speed Racing (1)에 장애물이 추가된 버전입니다.
 
 
 <br>
+
 ### 3rd Map : Smurf Village Map
 
 - 난이도 (Difficulty) : ★★★☆☆
@@ -510,6 +511,7 @@ Speed Racing (1)에 장애물이 추가된 버전입니다.
 
 
 <br>
+
 ### 4th Map : Marina Bay Street Circuit
 
 - 난이도 (Difficulty) : ★★★★☆
