@@ -480,5 +480,26 @@ Speed Racing (1)에 장애물이 추가된 버전입니다.
 
 <img src='./Images/map2_2.png'>
 
+<br>
+
+### 4th Map : Marina Bay Street Circuit
+
+- 난이도 (Difficulty) : ★★★★☆
+
+- 도로 폭 (Road width) : 16m
+
+- 도로 길이 (Road length) : 5,063 m
+
+싱가포르에 위치한 포뮬러1 서킷. 시가지 서킷 답게 직각 코너가 많고(23개의 코너), 도로가 방호벽 가까이에 붙어있는 경우가 많아, 충돌에 주의하여야 합니다.
+
+기존의 다른 트랙과 비교하여 트랙 사이즈가 크고, 긴 직선주로가 있어서 속도를 많이 낼 수 있지만,
+
+코너를 대비하여 적절하게 속도조절을 하지 않으면 코너링 시 차량이 쉽게 전복될 수 있으니 주의하여 주시기 바랍니다.
+
+<img src='./Images/marina_map_1.png'>
+<img src='./Images/marina_map_2.png'>
+
+<Br>
+
 차량 및 트랙 관련 기본정보 확인은 여기로 
 [Basic Information](./Basic_Info.md)
