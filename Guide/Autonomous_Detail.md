@@ -481,11 +481,49 @@ Basic Round 1번 맵에서 장애물이 추가된 맵 입니다.
 
 Speed Racing (1)에 장애물이 추가된 버전입니다.
 
-
-
 - 도로폭 (Road width) : 16m
 
 - 도로 길이 (Road length) : 1,860m
 
 <img src='./Images/self_map4_2.png'>
+
+
+<br>
+### 3rd Map : Smurf Village Map
+
+- 난이도 (Difficulty) : ★★★☆☆
+
+- 도로 폭 (Road width) : 16m
+
+- 도로 길이 (Road length) : 1,953m
+
+6개의 급커브 구간이 있는 직선주로와 커브구간이 조화롭게 구성되어 있는 트랙
+
+중간중간 큐브 형태의 장애물이 배치되어 있으며, 도로 폭이 넓지 않기 때문에
+
+무리한 주행 설정은 차량 전복으로 인한 실격을 조심해야 합니다.
+
+나무와 절벽으로 둘러쌓여있는 구간이 많기 때문에 잘못하면 완주하지 못할 수도 있습니다.
+
+<img src='./Images/map2_1.png'>
+<img src='./Images/map2_2.png'>
+
+
+<br>
+### 4th Map : Marina Bay Street Circuit
+
+- 난이도 (Difficulty) : ★★★★☆
+
+- 도로 폭 (Road width) : 16m
+
+- 도로 길이 (Road length) : 5,063 m
+
+싱가포르에 위치한 포뮬러1 서킷. 시가지 서킷 답게 직각 코너가 많고(23개의 코너), 도로가 방호벽 가까이에 붙어있는 경우가 많아, 충돌에 주의하여야 합니다.
+
+기존의 다른 트랙과 비교하여 트랙 사이즈가 크고, 긴 직선주로가 있어서 속도를 많이 낼 수 있지만,
+
+코너를 대비하여 적절하게 속도조절을 하지 않으면 코너링 시 차량이 쉽게 전복될 수 있으니 주의하여 주시기 바랍니다.
+
+<img src='./Images/marina_map_1.png'>
+<img src='./Images/marina_map_2.png'>
 
