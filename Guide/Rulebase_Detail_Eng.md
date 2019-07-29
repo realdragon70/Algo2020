@@ -496,8 +496,27 @@ One false move, you may not be able to finish the race.
 <br>
 
 <img src='./Images/map2_2.png'>
+<br>
+<br>
+### 4th Map : Marina Bay Street Circuit
+
+- Difficulty : ★★★★☆
+
+- Road width : 16m
+
+- Road length : 5,063 m
+
+The Formula 1 circuit in Singapore. There are many corners (total 23 corners) in city streets, and roads are often attached near walls, so be careful of collisions.
+
+Compared to previous tracks, the track size is large and it has the long straight line to speed up.
+
+However, if you do not adjust the speed properly in case of cornering, the car can be easily overturned.
+
+<img src='./Images/marina_map_1.png'>
+<img src='./Images/marina_map_2.png'>
+
+<br>
 
 
 Basic Information about Car and Circuit 
-
 [Basic Information](./Basic_Info_En.md)
