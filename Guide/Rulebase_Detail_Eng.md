@@ -498,3 +498,6 @@ One false move, you may not be able to finish the race.
 <img src='./Images/map2_2.png'>
 
 
+Basic Information about Car and Circuit 
+
+[Basic Information](./Basic_Info_En.md)
