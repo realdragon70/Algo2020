@@ -497,7 +497,8 @@ One false move, you may not be able to finish the race.
 
 <img src='./Images/map2_2.png'>
 <br>
-<br>
+
+
 ### 4th Map : Marina Bay Street Circuit
 
 - Difficulty : ★★★★☆
