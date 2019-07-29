@@ -556,4 +556,53 @@ A version with added obstacles to Speed Racing (1)
 <img src='./Images/self_map4_2.png'>
 
 
+### Third Map : Smurf Valley Map 
+
+- Difficulty : ★★★☆☆
+
+- Road width : 15m
+
+- Road length : 1,953m
+
+A track with a combination of straight line and curve segments with 6 fast curve zones.
+
+Since the obstacles in the form of a cube are arranged and the road width is not wide.
+
+You have to be careful. An overdrive setting is a disqualification due to vehicle overturning.
+
+Because there are many zones surrounded by trees and cliffs.
+
+One false move, you may not be able to finish the race.
+
+<br>
+<img src='./Images/map2_1.png'>
+<br>
+
+<img src='./Images/map2_2.png'>
+<br>
+
+
+### 4th Map : Marina Bay Street Circuit
+
+- Difficulty : ★★★★☆
+
+- Road width : 16m
+
+- Road length : 5,063 m
+
+The Formula 1 circuit in Singapore. There are many corners (total 23 corners) in city streets, and roads are often attached near walls, so be careful of collisions.
+
+Compared to previous tracks, the track size is large and it has the long straight line to speed up.
+
+However, if you do not adjust the speed properly in case of cornering, the car can be easily overturned.
+
+<img src='./Images/marina_map_1.png'>
+<img src='./Images/marina_map_2.png'>
+
+<br>
+
+
+Basic Information about Car and Circuit 
+[Basic Information](./Basic_Info_En.md)
+
 
