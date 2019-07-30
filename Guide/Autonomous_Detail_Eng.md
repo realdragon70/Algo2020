@@ -292,7 +292,7 @@ The size of the obstacle is fixed length of 2 m in all maps, and it is 1m on the
 
 <img src='./Images/Airsim_obstacle_2.png'>
 
-Ex) track_forward_obstacles : [{'dist': 10.72, 'to_middle': 2.93}] | Type : list [dict]
+Ex) track_forward_obstacles : [( 10.72, 2.93)] | Type : list [tuple]
 
 <br>
 
