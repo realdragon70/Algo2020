@@ -279,7 +279,7 @@ Ex) lap_progress : 5.43 | Type : float
 
 <img src='./Images/Airsim_obstacle_2.png'>
 
-Ex) track_forward_obstacles : [{'dist': 10.72, 'to_middle': 2.93}] | Type : list [dict]
+Ex) track_forward_obstacles : [(10.72, 2.93)] | Type : list [tuple]
 
 <br>
 
