@@ -101,3 +101,8 @@ Korean | [English](./README_Eng.md)
 - 예선 트랙/본선 트랙은 대회운영 TF에서 지정합니다.
 
 - 대회 운영 방식은 사정에 따라 변경될 수 있으며, 변경 전 충분히 사전 공지를 할 예정입니다.
+
+<br><br>
+자, 그럼 설치하러 가보실까요? [QuickStart](./QuickStart/Readme.md)
+
+차량 및 트랙 관련 기본정보 확인은 여기로 [Basic Information](./Guide/Basic_Info.md)
