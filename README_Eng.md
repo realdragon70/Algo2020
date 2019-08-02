@@ -97,6 +97,7 @@ If a car cannot be operated due to a collision between vehicles while racing, a 
 
 - Re-competition limit is 3 times. If it continues to run out of control, the team that goes a little farther from the last attempt will win.
 
+- If a car hit into a fence or obstacles, it is not the case for re-competition becuase you can go backward and continue driving.
 
 
 ### ■ Other rules
