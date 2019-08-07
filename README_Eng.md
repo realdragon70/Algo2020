@@ -114,3 +114,8 @@ Ok! Let's go to start develop this game!
 Basic Information about Car and Circuit 
 
 [Basic Information](./Guide/Basic_Info_En.md)
+
+
+Autonomous driving guide has been added.
+
+[Additional Autonomous driving guide](./Guide/Auto_Guide_Advanced_Eng.md)
