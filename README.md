@@ -108,3 +108,5 @@ Korean | [English](./README_Eng.md)
 자, 그럼 설치하러 가보실까요? [QuickStart](./QuickStart/Readme.md)
 
 차량 및 트랙 관련 기본정보 확인은 여기로 [Basic Information](./Guide/Basic_Info.md)
+
+자율주행 가이드가 추가되었습니다. [자율주행 추가 가이드](./Guide/Auto_Guide_Advanced.md)
