@@ -146,7 +146,7 @@ C:\Users\SDS>pip install airsim --proxy 프록시주소:포트 --trusted-host py
 We are almost ready.
 <br>
 Go to Rule-based Driving or Autonomous Driving to continue.
-Go to [Rule-based Driving](./Rulebase_Start_Eng.md) or [Autonomous Driving](./Autonomous_Start_Eng.md) to continue.
+Go to [Rule-based Driving](./Rulebase_Start_Eng.md) to continue.
 
 
 MSR Aerial Information and Robotics Platform/Simulator (AirSim), Copyright (c) Microsoft Coporation.
