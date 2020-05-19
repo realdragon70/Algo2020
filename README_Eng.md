@@ -6,7 +6,7 @@ Algorithm Contest is a car race using vehicle simulator(Microsoft Airsim), which
 
 By directly creating an algorithm corresponding to each state of the vehicle, It is the secret to be the champion by developing the optimal driving algorithm by utilizing various APIs that provide information such as the status, location information, speed and direction of the road where the vehicle is running in real time.
 
-The race is a way for two vehicles to compete against the winner and proceed to the preliminary (league) and finals (tournament). The preliminaries are performed by measuring the record by single play per track and ranking. In the final round, two cars will compete one-on-one, and the winner will advance to the next round and pick the final winner.
+The race is a way for several vehicles to compete against the winner and proceed to the preliminary and finals. The preliminaries are performed by measuring the record by multi play per track and ranking. In the final round, several cars will compete, and the winner will advance to the next round and pick the final winner.
 
 
 ### The detailed information about the contest
@@ -16,7 +16,7 @@ All teams will compete in the qualifying league, and the top eight teams will ad
 We will choose the winner through online preliminaries and offline finals.
 
 
-### On-line Qualification (8 teams will be selected)
+### On-line Qualification (32 teams will be selected)
 
 The preliminary round will be held in a single league with no separate group, and will proceed with the following rules.
 
@@ -24,13 +24,13 @@ The qualifying track will be announced by notice after your learning and bot-dev
 
   - The qualifying score is determined by the total time taken from the starting line to the finish line and two laps.
   - Replicating the source code of another team, or submitting it utilizing a similar code, may be disqualified.
-  - Team configurations can be organized freely regardless of area and division, and can consist of 1 to 3 people.
-  - In order of grades from 1st to 8th place, the qualifying team is selected, but if there is a tie, all the lower equalizer teams pass the qualifying round.
+  - Team configurations can be organized freely, and can consist of 1 to 3 people.
+  - In order of grades from 1st to 32th place, the qualifying team is selected, but if there is a tie, all the lower equalizer teams pass the qualifying round.
 
 
 ### Off-line Main Event 
 
-From the 8th round, the final winner will be selected by the tournament. The loser is eliminated, the winner goes to the next round, and the winner of the last two teams is the winner. If both teams are disqualified, the longer the driving distance will win. The starting position of the two teams is that the team that scored better in the preliminaries or the previous match will start from the inside or the front.
+From the 32th round, the final winner will be selected by the tournament. The loser is eliminated, the winner goes to the next round, and the winner of the last two teams is the winner. If both teams are disqualified, the longer the driving distance will win. The starting position of the whole teams is determined randomly. 
 
 
 ### Disqualification Standards
