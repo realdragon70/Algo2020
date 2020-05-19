@@ -30,7 +30,7 @@ The qualifying track will be announced by notice after your learning and bot-dev
 
 ### Off-line Main Event 
 
-From the 32th round, the final winner will be selected by the tournament. The loser is eliminated, the winner goes to the next round, and the winner of the last two teams is the winner. If both teams are disqualified, the longer the driving distance will win. The starting position of the whole teams is determined randomly. 
+From the 32th round, the final winner will be selected by the tournament. The loser is eliminated, the winner goes to the next round, and the winner of the last two teams is the winner. If whole teams are disqualified, the longer driving distance will win. The starting position of the whole teams is determined randomly. 
 
 
 ### Disqualification Standards
