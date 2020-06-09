@@ -32,6 +32,9 @@ The qualifying track will be announced by notice after your learning and bot-dev
 
 From the 32th round, the final winner will be selected by the tournament. The loser is eliminated, the winner goes to the next round, and the winner of the last two teams is the winner. If whole teams are disqualified, the longer driving distance will win. The starting position of the whole teams is determined randomly. 
 
+- The top two teams advance to the next round by racing 4 teams for each round.
+- 1st round(32 Teams) 8 matches → 2nd round(16 Teams) 4 matches → Semi-Final 2 matches → Final match
+
 
 ### Disqualification Standards
 
