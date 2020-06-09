@@ -1,3 +1,5 @@
+Korean | [English](./Basic_Info_En.md)  | [Home](../README_Eng.md)
+
 ## 기본 정보
 
 ### 01. 차량 정보
