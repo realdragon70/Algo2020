@@ -1,4 +1,4 @@
-Korean | [English](./Basic_Info_En.md)  | [Home](../README_Eng.md)
+Korean | [English](./Basic_Info_En.md)  | [Home](../README.md)
 
 ## 기본 정보
 
