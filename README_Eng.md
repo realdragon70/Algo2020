@@ -24,7 +24,7 @@ The qualifying track will be announced by notice after your learning and bot-dev
 
   - The qualifying score is determined by the total time taken from the starting line to the finish line and two laps.
   - Replicating the source code of another team, or submitting it utilizing a similar code, may be disqualified.
-  - Team configurations can be organized freely, and can consist of 1 to 3 people.
+  - Team configurations can be organized freely, and can consist of 1 to 4 people.
   - In order of grades from 1st to 32th place, the qualifying team is selected, but if there is a tie, all the lower equalizer teams pass the qualifying round.
 
 
