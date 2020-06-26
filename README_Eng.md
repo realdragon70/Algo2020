@@ -11,7 +11,7 @@ The race is a way for several vehicles to compete against the winner and proceed
 
 ### The detailed information about the contest
 
-All teams will compete in the qualifying league, and the top eight teams will advance to the finals with single runs on the road chosen as the qualifying track.
+All teams will compete in the qualifying league, and the top eight teams will advance to the finals with runs on the road chosen as the qualifying track.
 
 We will choose the winner through online preliminaries and offline finals.
 
