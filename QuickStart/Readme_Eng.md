@@ -6,7 +6,7 @@
 
 Please, download the Airsim simulator you want to play. A simulator file has only one map file. You should choose which one to download depending up on the map you want to.
 
-※ [Download link](https://drive.google.com/drive/folders/1fkf2ihHAxDxyMN9ABvPnUzwMGZhUcGJm)
+The simulator download link will be suggested after submission on July 10th.
 
 
 The runtime for Airsim is Microsoft Windows. We have tested on Windows 7, 10 (64 bit)
