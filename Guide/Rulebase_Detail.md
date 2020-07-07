@@ -488,22 +488,22 @@ steering 값이 + 값이면 오른쪽 방향으로 제어, steering 이 - 값이
         "Car1": {
             "VehicleType": "PhysXCar",
             "X": 0, "Y": -6, "Z": 0
-            “Name”: “Car1”
+            "Name": "Car1"
          },
         "Car2": {
            "VehicleType": "PhysXCar",
            "X": 0, "Y": -2, "Z": 0
-           “Name”: “Car2”
+           "Name": "Car2"
          },
         "Car3": {
            "VehicleType": "PhysXCar",
            "X": 0, "Y": 2, "Z": 0
-           “Name”: “Car3”
+           "Name": "Car3"
          },
         "Car4": {
            "VehicleType": "PhysXCar",
            "X": 0, "Y": 6, "Z": 0
-           “Name”: “Car4”
+           "Name": "Car4"
          }
       }
     }
