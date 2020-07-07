@@ -8,7 +8,11 @@ Korean | [English](./Rulebase_Detail_Eng.md)  | [Home](../README_Eng.md)
 
 ### ■ 사전 조건
 
-윈도우 7, 윈도우 10 에서만 시뮬레이터가 동작합니다. (64bit)
+윈도우 7, 윈도우 10 64bit에서만 시뮬레이터가 동작합니다.
+
+“문서” 폴더 path 및 윈도우 사용자계정 “영문”만 지원됩니다. 
+
+OneDrive 사용 시, https://github.com/microsoft/AirSim/issues/1066 를 참조해 주세요.
 
 
 <br>
