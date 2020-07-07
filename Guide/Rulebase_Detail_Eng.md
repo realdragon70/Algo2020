@@ -540,7 +540,7 @@ Json file sample and description
 ```json
     {
      "SettingsVersion": 1.2,
-     "SimMode": "Car"
+     "SimMode": "Car",
      "Algo": {
         "Map": "1"
      },
