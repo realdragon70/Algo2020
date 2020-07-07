@@ -1,154 +1,140 @@
 [Korean](./Readme.md) | English  | [Home](../README_Eng.md)
 
-## Get Simulator
-### 01. Getting Airsim simulator ready.
+## Installing a Simulator
+### 01. Prepare the simulator
 --------------------------------
 
-Please, download the Airsim simulator you want to play. A simulator file has only one map file. You should choose which one to download depending up on the map you want to.
+Download the simulator. The simulator contains a track, and the simulator file is distributed for each track.
 
-The simulator download link will be suggested after submission on July 10th.
+※ [Related file download link(China)](https://drive.google.com/file/d/1cY6y6Us9B1bSmgegO324Tat6zwNFhJpO/view?usp=sharing)
+※ [Related file download link(Austria)](https://drive.google.com/file/d/1L_txZlh4FhV20ufh4nizvl91ti_NLMFs/view?usp=sharing)
+※ [Related file download link(Bahrain)](https://drive.google.com/file/d/1GkWtOkf1RNui_o2oy4ZY-tBpy7JZxqWg/view?usp=sharing)
 
 
-The runtime for Airsim is Microsoft Windows. We have tested on Windows 7, 10 (64 bit)
+The simulator execution environment is MS Windows 7 / MS Windows 10. (64 bit)
 
-Once you download a zipfile and unzip, they will look like below. You can execute Algo.exe to run Airsim simulator.
+If you unzip the downloaded file, it will be as follows. You can run the run.bat here.
 
-<img src='./Images/1.png'>
+<img src='./Images/sim_install_guide_1.jpg'>
 <br>
-	  
-If you don't want to run as a full screen for your convenience or performance issue, you can execute run.bat which will run the simulator on a popup window. Its resolution is set 640x480 as a default but you can customize it on your convenience by editing run.bat.
 
-The very first time you executing the Algo.exe file, it will request you to install UE4 Prerequisites. Once it is done, simulator will automatically come up.
+If you want to display it on a small screen rather than a full screen due to convenience or PC performance problems, run the run.bat. You can specify the horizontal vertical size of the screen in the run.bat file, and in the attached file, -ResX=640 -ResY=480.
 
+When running the Algo.exe file for the first time, it requires UE4 installation. After UE4 prerequisite installation completion, simulator is executed.
 
 <img src='./Images/2.png'>
 <br>
 
-And please select 'Yes' to the following dialogue. (If 'No', then a drone mode will be activated)
+When running, please select Yes in the following dialog. (If you do No, the drone appears instead of the car )
 
 <img src='./Images/3.png'>
 <br>
 	  
-Vehicle simulator is now running like a screen.
+This is the first screen on which the simulator was executed.
 
-<img src='./Images/4.png'>
+<img src='./Images/sim_install_guide_2.jpg'>
 <br>
+
+You can exit or maximize the simulator through window window default actions such as Close, Maximize, etc.
+
+During the Simulator iteration, when an abnormal operation occurs, go to the task manager, force exit algo-win64-Shipping.exe, and then run restart.
+
 
 Simulator Help
 
 - Press F1 for help.
 
-<img src='./Images/5.png'>
+<img src='./Images/sim_install_guide_3.jpg'>
 <br>
-	  
-Modifying settings.json
 
-- modify as follows.
+Features are provided through shortcuts.
 
-Path : C:\Users\SDS\Documents\AirSim
+1. F8: Starts in adjustable manual mode via keyboard.
 
-File : settings.json
+2. Backspace: Initialize simulator. After you try driving, when you want to try again, use it.
+
+3. Manually adjust camera: See Help for details
+
+4. camera view adjustment
+
+- F : FPV view, B : “fly with me” view, \ : ground observer view, / : chase with spring arm view
+
+This is the driving screen of the simulator.
+
+<img src='./Images/sim_install_guide_4.jpg'>
+
+1. Indicates the location on the track as a mini-map.
+
+2. Current Lap / Total Lap count
+
+3. travel time
+
+4. gear
+
+5. Speed (km / h)
+
+After completing the driving, or if you want to stop and proceed again, proceed after initialization through the "backspace" key.
+
+
+<br>
+
+### 02. Modify Settings File
+
+Modify settings.json
+
+Path : C:\Users\{user}, ex. SDS }\Documents\AirSim
+
+File : settings.json 
 
 ```
 
     {
 	 "SettingsVersion": 1.2,
-	 "SimMode" : "Car",
-	 "ClockSpeed": 1
+	 "SimMode" : "Car"
     }
 ```	
 
-The above is the default setting.
+The above is the most basic type of setting.
 
-※ About clock speed of Airsim simulator
+The following are the contents that can be set.
 
-By modifying settings.json file in the path : C:\Users\{username}\Documents\AirSim, you can change the speed of Airsim simulator. The Airsim official document said by increasing clock speed may deteriorates simulator quality, such as physical law distortion. Therefore, when code/model is submitted, the server will run the code/model with x1 speed. When testing locally, we recommend that you run the test within 2x and for the final submission, please verify in the x1 speed environment
+After modifying settings.json, you must re-run simulator.
 
+In the case of "Map", the type of obstacle configuration is shown.
 
-※ Modifying to x2 speed environment
+The “ Map ” may have one of “ 1 ”, “ 2 ” or “ 3 ”.
 
-- Edit setting.json -> "ClockSpeed": 2
-- Rule based driving : At the top of drive_controller.py file, modify 'current_clock_speed = 2'
-- Autonomous driving : At the top of dqn_model.py file, modify 'current_clock_speed = 2'
-
-
-
-### 02. Installing Anaconda
-
-A. Please, retrieve the latest version(3.7) of Anaconda fro the URL below.
-
-MacOS is selected by default, so choose the Windows menu.
-
-<img src='./Images/6.png'>
-<br>
-
-https://www.anaconda.com/distribution/#download-section
-
-
-B. Run the installation file and move on step by step by clicking the next button.
-
-There are two Installation types. 'Just me' is chosen for now.
-
-'All Users' option is also OK. But it requires admin privileges whenever you install packages or modifying configuration of Anaconda.
-
-To give admin privilege, find the program you want to run - in this case command prompt(cmd) - right click and select 'Run as administrator'.
-
-
-<img src='./Images/7.png'>
-<br>
-
-C. Select advanced installation options
-
-
-<img src='./Images/8.png'>
-
-a) Adding Anaconda to my PATH environment variable (default is unchecked)
-
-This option will add Anaconda path to the environment variables. If you have previously installed python runtime, you can uncheck this option. And if you are installing Anaconda for the first time in your PC, you can check and proceed. This will allow for you to execute python at any directory location. Id don't want to think about these, you can just uncheck it and use Anaconda prompt instead of cmd prompt.
-
-
-<img src='./Images/9.png'>
-
-b) Register Anaconda as my default Python 3.7
-
-this option will set Anaconda as a default Python runtime. If you don't have it previously, check and continue to install.
-
-After you select all the choices, the complete installation process will take some times. Please be patient.
-
-Once installation is done, run cmd command or Anaconda prompt from start menu and check python version by typing this command.
-
-
-
-If you see current version information like this, it is considered the installation is properly done.
-```
-C:\Users\SDS>python --version
-  Python 3.7.3 :: Anaconda, Inc.
-```
-
-### 03. Installing airsim module
-
-Run command below on cmd or Anaconda prompt (with administrator privilege)
-
-(Anaconda prompt is recommended if the pip install fails in the command window.)
-
-Proxy settings are optional. Make the appropriate changes according to your environment.
+If not defined, one of 1 to 3 obstacles is set arbitrarily.
 
 ```
-C:\Users\SDS>pip install airsim --proxy 프록시주소:포트 --trusted-host pypi.org
-```
+    {
+	 "SettingsVersion": 1.2,
+	 "SimMode" : "Car",
+	 "Algo": {
+	 	"Map": "1"
+	 },
+	 "Vehicles": {
+	 	"Car1": {
+			"VehicleType": "PhysXCar",
+			"X": 0, "Y": 0, "Z": 0
+		}
+	 }
+    }
+```	
 
-※ while airsim package installation, you can encounter a warning message but it doesn't affect the function that we are going to use.
-
-#distributed 1.26.0 has requirement tornado>=5, but you'll have tornado 4.5.3 which is incompatible.
 
 <br>
 
-We are almost ready.
+### 03. Try driving using keyboard mode
+
+Using Keyboard Mode
+
+After executing the simulator, enter the "F8" key (car can be operated with the direction key )
+
+※ After executing Client Python, the "F8" key can not be entered. After initializing the simulator with the "backspace" key, it can be re-entered.
+
+We're almost ready.
+
+Through the detailed guide of the bulletin board, please create a source code and perform the driving.
+
 <br>
-Go to Rule-based Driving or Autonomous Driving to continue.
-Go to [Rule-based Driving](./Rulebase_Start_Eng.md) to continue.
-
-
-MSR Aerial Information and Robotics Platform/Simulator (AirSim), Copyright (c) Microsoft Coporation.
-2019 Algorithm Contest uses the Unreal® Engine.  Unreal® is a trademark or registered trademark of Epic Games, Inc. in the United States of America and elsewhere. 
-Unreal® Engine, Copyright 1998 – 2019, Epic Games, Inc.  All rights reserved.
