@@ -6,7 +6,7 @@ Korean | [English](./Readme_Eng.md)  | [Home](../README.md)
 
 시뮬레이터를 다운받습니다. 시뮬레이터에 트랙이 포함되어 있으며, 각 트랙별로 시뮬레이터 파일이 배포됩니다.
 
-※ [관련 파일 다운로드 링크](https://drive.google.com/file/d/1aWvUGiYJLzYJ-860jwzvz4YXAHNQEE5x/view?usp=sharing)
+※ [관련 파일 다운로드 링크](https://drive.google.com/drive/folders/1aB7uDYu3Maf3zcMCYBuEb7HRT0RCxNXt?usp=sharing)
 
 
 시뮬레이터 실행환경은 MS Windows 7 / MS Windows 10 입니다. (64 bit)
