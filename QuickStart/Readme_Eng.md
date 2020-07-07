@@ -6,9 +6,7 @@
 
 Download the simulator. The simulator contains a track, and the simulator file is distributed for each track.
 
-※ [Related file download link(China)](https://drive.google.com/file/d/1cY6y6Us9B1bSmgegO324Tat6zwNFhJpO/view?usp=sharing)
-※ [Related file download link(Austria)](https://drive.google.com/file/d/1L_txZlh4FhV20ufh4nizvl91ti_NLMFs/view?usp=sharing)
-※ [Related file download link(Bahrain)](https://drive.google.com/file/d/1GkWtOkf1RNui_o2oy4ZY-tBpy7JZxqWg/view?usp=sharing)
+※ [Related file download link](https://drive.google.com/drive/folders/1aB7uDYu3Maf3zcMCYBuEb7HRT0RCxNXt?usp=sharing)
 
 
 The simulator execution environment is MS Windows 7 / MS Windows 10. (64 bit)
