@@ -98,11 +98,13 @@ The following are the contents that can be set.
 
 After modifying settings.json, you must re-run simulator.
 
-In the case of "Map", the type of obstacle configuration is shown.
-
-The “ Map ” may have one of “ 1 ”, “ 2 ” or “ 3 ”.
-
-If not defined, one of 1 to 3 obstacles is set arbitrarily.
+Obstacle information can be set according to the "Map" value. 
+ 
+ "Map": "0" > No obstacles 
+ 
+        "1" ~ "3" > Obstacle type 1 ~ 3 
+ 
+        "4" > Obstacle Random
 
 ```
     {
